@@ -1,0 +1,47 @@
+{
+    "pages": [
+        "pages/todo-list/home/home",
+        "pages/my/my",
+        "pages/index/index",
+        "pages/getOpenId/index",
+        "pages/getMiniProgramCode/index",
+        "pages/deployService/index",
+        "pages/createCollection/index",
+        "pages/uploadFile/index",
+        "pages/selectRecord/index",
+        "pages/updateRecord/index",
+        "pages/updateRecordResult/index",
+        "pages/updateRecordSuccess/index",
+        "pages/sumRecord/index",
+        "pages/sumRecordResult/index"
+        
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": "我flag",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#e0e0de",
+        "selectedColor": "#1296db",
+        "backgroundColor": "#ffffff",
+        "list": [{
+          "pagePath": "pages/todo-list/home/home",
+          "text": "打卡",
+          "iconPath": "images/untodo.png",
+          "selectedIconPath": "images/todo.png"
+        }, {
+          "pagePath": "pages/my/my",
+          "text": "我的",
+          "iconPath": "images/un-my.png",
+          "selectedIconPath": "images/my.png"
+        }]
+      },
+      "useExtendedLib": {
+        "weui": true
+      },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2"
+}

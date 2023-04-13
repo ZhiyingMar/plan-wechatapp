@@ -1,0 +1,1 @@
+"D:\wechat\wechattools\微信web开发者工具\cli.bat" cloud functions deploy --e music-c5ryi --n quickstartFunctions --r --project "E:\gzh-study\plan-wechatapp" --report_first --report
